@@ -43,7 +43,7 @@ def gui():
 			t=yt.streams.filter(only_audio=True).all()
 			t[0].download()
 
-		botlog=Button(menu_l, text="inicar sesion", command=link_t)
+		botlog=Button(menu_l, text="descargar", command=link_t)
 
 		botlog.place(x=458, y=90)
 
